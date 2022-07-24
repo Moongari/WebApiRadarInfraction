@@ -9,7 +9,10 @@ namespace WebApiRadarInfraction.Interface
         public List<RadarInfraction> GetAllRadarInfraction();
 
         public RadarInfraction GetRadar(int id);
-        
+
+        public void CreateRadar(RadarInfraction radar);
+
+
 
 
     }
